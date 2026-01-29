@@ -287,5 +287,10 @@ export function JobInfoCard({ job, relatedInvestigationNumber }) {
 
 JobInfoCard.propTypes = {
   job: PropTypes.object.isRequired,
-  relatedInvestigationNumber: PropTypes.number.isRequired,
+  relatedInvestigationNumber: PropTypes.number,
 };
+
+JobInfoCard.defaultProps = {
+  relatedInvestigationNumber: 0,
+};
+
