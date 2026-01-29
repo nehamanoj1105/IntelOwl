@@ -293,4 +293,3 @@ JobInfoCard.propTypes = {
 JobInfoCard.defaultProps = {
   relatedInvestigationNumber: 0,
 };
-
